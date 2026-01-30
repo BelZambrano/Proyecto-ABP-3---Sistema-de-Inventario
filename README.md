@@ -100,6 +100,7 @@ Las siguientes imágenes muestran el sistema funcionando correctamente:
 ![Buscar producto](screenshots/buscar_producto.png)
 
 ### Reporte de inventario
-![Reporte](screenshots/reporte_de_inventario.png)
+![Reporte de inventario](screenshots/reporte_de_inventario.png)
+
 
 
