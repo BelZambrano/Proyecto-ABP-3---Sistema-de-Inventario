@@ -56,6 +56,23 @@ El proyecto está organizado de forma modular:
 5. Reporte de inventario  
 6. Salir  
 
+
+## ▶️ Ejecución del sistema
+
+### Requisitos
+- Tener **Python 3** instalado.
+- Abrir una terminal en la carpeta del proyecto.
+
+### Cómo ejecutar el programa
+Desde la carpeta donde se encuentra el archivo `main.py`, ejecutar:
+
+
+python main.py , si no funciona usar 
+python3 main.py
+
+Al ejecutar el programa se mostrará un menú en consola.
+El usuario debe ingresar una opción del 1 al 6 según la acción que quiera realizar.
+
 ## 🧠 Desafíos y soluciones implementadas
 
 ### 1. Ordenar el código para poder entenderlo mejor
