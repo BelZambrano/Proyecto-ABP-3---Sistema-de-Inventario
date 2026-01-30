@@ -56,25 +56,50 @@ El proyecto está organizado de forma modular:
 5. Reporte de inventario  
 6. Salir  
 
+---## 🧠 Desafíos y soluciones implementadas
+
+### 1. Ordenar el código para poder entenderlo mejor
+**Desafío:**  
+Al principio tenía gran parte del código junto y se me hacía difícil leerlo y saber qué hacía cada cosa, 
+sobre todo cuando el programa empezó a crecer.
+
+**Solución:**  
+Decidí separar el sistema en distintos archivos según su función.  
+Por ejemplo, dejé los datos del inventario en un archivo, 
+las funciones de productos en otro y el menú principal en `main.py`.  
+Esto me ayudó a entender mejor el flujo del programa y a trabajar de forma más ordenada. 
+--- Esto es modularizar !! 
+
 ---
+
+### 2. Evitar que el programa se cayera por errores del usuario
+**Desafío:**  
+Me di cuenta de que el programa podía fallar
+si el usuario ingresaba letras en vez de números o valores que no tenían sentido, como cantidades negativas.
+
+**Solución:**  
+Agregué validaciones y manejo de errores para controlar estos casos, 
+mostrando mensajes claros y evitando que el sistema se cierre inesperadamente.  
+De esta forma el programa es más estable y fácil de usar. --- Esto es Validar datos !! 
+
 
 ## 🖥️ Evidencia de funcionamiento
 
 Las siguientes imágenes muestran el sistema funcionando correctamente:
 
 ### Menú principal
-![Menú principal](screenshots/menu.png)
+![Menú principal](screenshots/main_inicial.png)
 
 ### Agregar producto nuevo
 ![Agregar producto](screenshots/agregar_producto_nuevo.png)
 
 ### Listar productos
-![Listar productos](screenshots/listar_productos.png)
+![Listar productos](screenshots/listar_producto.png)
 
 ### Buscar producto
 ![Buscar producto](screenshots/buscar_producto.png)
 
 ### Reporte de inventario
-![Reporte](screenshots/reporte.png)
+![Reporte](screenshots/reporte_de_inventario.png)
 
 
