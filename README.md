@@ -56,7 +56,7 @@ El proyecto está organizado de forma modular:
 5. Reporte de inventario  
 6. Salir  
 
----## 🧠 Desafíos y soluciones implementadas
+## 🧠 Desafíos y soluciones implementadas
 
 ### 1. Ordenar el código para poder entenderlo mejor
 **Desafío:**  
